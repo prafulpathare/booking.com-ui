@@ -1,0 +1,42 @@
+.Tile {
+    transition: all 0.05s ease-in;
+}
+.Tile:hover {
+    transform: scale(1.03);
+}
+
+.image-wrapper {
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.details-wrapper {
+    margin: 10px 0;
+}
+.details-line-1-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.header-name {
+    flex: 3;
+    font-weight: bold;
+}
+.rating-wrapper {
+    flex: 1;
+    text-align: right;
+}
+.icon {
+    width: 12px;
+}
+
+.address-wrapper {
+    margin: 7px 0;
+}
+
+.price-wrapper {
+    
+}
+.price {
+    font-weight: bold;
+}
