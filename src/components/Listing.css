@@ -1,0 +1,23 @@
+.listing-header {
+    padding: 0 20px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: auto 150px;
+}
+
+
+.properties-view {
+    padding: 10px;
+    max-height: calc(100vh - 100px);
+    overflow-y: scroll;
+}
+.properties-view::-webkit-scrollbar {
+    display: none;
+}
+  
+.listing-view {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: 0 10px;
+}

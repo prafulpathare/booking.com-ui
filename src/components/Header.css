@@ -1,0 +1,37 @@
+
+
+.Header {
+    display: grid;
+    height: 100px;
+    max-height: 100px;
+    grid-template-columns: auto 50% auto;
+    gap: 20px;
+    justify-content: center;
+    align-self: center;
+}
+
+.Header > * {
+    margin: 20px;
+    align-self: center;
+}
+
+#logo {
+    height: 40px;
+}
+
+#q-input {
+    border-radius: 3px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    padding: 0 20px;
+}
+#q-input:focus {
+    outline: none;
+    font-size: 20px;
+    background-color: #fff;
+    border-color: #fff;
+    border-bottom-color: #888;
+}
